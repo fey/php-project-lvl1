@@ -6,6 +6,8 @@ use InvalidArgumentException;
 
 use function BrainGames\Engine\runGame;
 
+use const BrainGames\Engine\ROUNDS_COUNT;
+
 function calculate($operation, $number1, $number2)
 {
     return match ($operation) {
@@ -35,7 +37,7 @@ function run()
     $description = 'What is the result of the expression?';
     $rounds = [];
 
-    for ($i = 0; $i < 3; $i += 1) {
+    for ($i = 0; $i < ROUNDS_COUNT; $i += 1) {
         $rounds[] = buildRound();
     }
 

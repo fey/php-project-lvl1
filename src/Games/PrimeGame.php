@@ -19,7 +19,7 @@ function isPrime(int $number): bool
     return true;
 }
 
-function buildRound()
+function buildRound(): array
 {
     $number = random_int(5, 100);
 

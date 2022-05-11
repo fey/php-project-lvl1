@@ -11,7 +11,7 @@ function isEven($number): bool
     return $number % 2 == 0;
 }
 
-function buildRound()
+function buildRound(): array
 {
     $number = random_int(5, 50);
     $answer = isEven($number) ? 'yes' : 'no';
@@ -22,7 +22,7 @@ function buildRound()
     ];
 }
 
-function run()
+function run(): void
 {
     $description = 'Answer "yes" if the number is even, otherwise answer "no".';
     $rounds = [];

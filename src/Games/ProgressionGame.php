@@ -17,7 +17,7 @@ function buildProgression($start, $step, $size): array
     return $progression;
 }
 
-function buildRound()
+function buildRound(): array
 {
     $size = 10;
     $start = random_int(5, 10);

@@ -15,7 +15,7 @@ function gcd(int $num1, int $num2): int
     return ($modulo === 0) ? $min : gcd($min, $modulo);
 }
 
-function buildRound()
+function buildRound(): array
 {
     $number1 = rand(2, 50);
     $number2 = rand(10, 100);

@@ -8,7 +8,7 @@ use function BrainGames\Engine\runGame;
 
 use const BrainGames\Engine\ROUNDS_COUNT;
 
-function calculate($operation, $number1, $number2)
+function calculate($operation, $number1, $number2): int
 {
     return match ($operation) {
         '-' => $number1 - $number2,
@@ -18,7 +18,7 @@ function calculate($operation, $number1, $number2)
     };
 }
 
-function buildRound()
+function buildRound(): array
 {
     $operations = ['-', '+', '*'];
     $number1 = random_int(5, 10);
@@ -32,7 +32,7 @@ function buildRound()
     ];
 }
 
-function run()
+function run(): void
 {
     $description = 'What is the result of the expression?';
     $rounds = [];

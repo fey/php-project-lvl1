@@ -12,3 +12,4 @@ make install
 ### Demo
 
 * Brain even - https://asciinema.org/a/iTS8eEd3wzqAHgRvcd75xOIoW
+* Brain calc - https://asciinema.org/a/uiRUN95R010UhEJ2bQwt6jo9s

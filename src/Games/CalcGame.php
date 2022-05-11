@@ -8,7 +8,7 @@ use function BrainGames\Engine\runGame;
 
 use const BrainGames\Engine\ROUNDS_COUNT;
 
-function calculate($operation, $number1, $number2): int
+function calculate(string $operation, int $number1, int $number2): int
 {
     return match ($operation) {
         '-' => $number1 - $number2,

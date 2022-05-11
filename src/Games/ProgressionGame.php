@@ -6,11 +6,11 @@ use function BrainGames\Engine\runGame;
 
 use const BrainGames\Engine\ROUNDS_COUNT;
 
-function buildProgression($start, $step, $size): array
+function buildProgression(int $start, int $step, int $size): array
 {
-    $progression = [$start];
+    $progression = [];
 
-    for ($i = 1; $i < $size; $i += 1) {
+    for ($i = 0; $i < $size; $i += 1) {
         $progression[] = $start + $step * $i;
     }
 

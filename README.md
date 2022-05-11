@@ -15,3 +15,4 @@ make install
 * Brain calc - https://asciinema.org/a/uiRUN95R010UhEJ2bQwt6jo9s
 * Brain gcd - https://asciinema.org/a/wjwSisucoH1qlALgkqYjUTeE5
 * Brain progression - https://asciinema.org/a/5uzUZcpBPRLIGwT0rls0IRd4I
+* Brain prime - https://asciinema.org/a/OXmlLmThN54dVxJ7NCk77X4hj
